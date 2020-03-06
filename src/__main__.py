@@ -2,6 +2,7 @@
 # -*- coding: UTF-8 -*-
 
 import os
+import platform
 
 import game
 import is_win
@@ -12,7 +13,10 @@ if __name__ == "__main__":
         game.gameMain()
         if is_win.isWin(game.map):
             break
-        os.system('cls')
+        if platform.system() == 'Windows':
+            os.system('cls')
+        else:
+            os.system('clear')
 
 print('''         **         *
 *    *              *

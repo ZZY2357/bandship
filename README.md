@@ -7,26 +7,28 @@
 
 #### 软件架构
 
-```
+```bash
 bandship
-	src
-		__init__.py			程序主入口
-		game.py				游戏主流程控制
-		make_grid.py		操作二维数组及游戏地图
-		render.py			渲染二维数组
-		think_user.py		操作用户输入
-	LICENSE		开源协议
-	README.md	你现在所看到的
+├── LICENSE		协议
+├── README.md		自述文件
+└── src			源代码
+    ├── game.py		游戏主流程控制
+    ├── is_win.py	判断输赢
+    ├── __main__.py	程序主入口
+    ├── make_grid.py	操作二维数组及游戏地图
+    ├── render.py	渲染二维数组
+    └── think_user.py	操作用户输入
 ```
 
+#### 安装
 
-
-#### 安装教程
-
-1. 打开<a href="https://gitee.com/ZZY2357/bandship/releases" target="_blank">发行版</a>
-2. 下载运行
+```shell
+git clone https://github.com/ZZY2357/bandship.git && cd bandship
+cd src
+python3 __main__.py
+```
 
 
 #### 参与贡献
 
-- <a href="https://gitee.com/ZZY2357" target="_blank">ZZY2357</a>
+- <a href="https://github.com/ZZY2357" target="_blank">ZZY2357</a>
