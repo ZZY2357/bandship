@@ -9,14 +9,14 @@
 
 ```bash
 bandship
-├── LICENSE		协议
-├── README.md		自述文件
-└── src			源代码
-    ├── game.py		游戏主流程控制
-    ├── is_win.py	判断输赢
-    ├── __main__.py	程序主入口
+├── LICENSE		        协议
+├── README.md	        自述文件
+└── src	                源代码
+    ├── game.py		    游戏主流程控制
+    ├── is_win.py	    判断输赢
+    ├── __main__.py	    程序主入口
     ├── make_grid.py	操作二维数组及游戏地图
-    ├── render.py	渲染二维数组
+    ├── render.py	    渲染二维数组
     └── think_user.py	操作用户输入
 ```
 

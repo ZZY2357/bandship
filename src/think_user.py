@@ -5,7 +5,7 @@
 
 def isBlast(posStr, _map):
     splitList = posStr
-    y = charToX(splitList[0])
+    y = charToY(splitList[0])
     x = int(splitList[1])
     theReturn = [x, y]
     if _map[y][x] == 1:
@@ -14,7 +14,7 @@ def isBlast(posStr, _map):
         theReturn.append(False)
     return theReturn
 
-def charToX(char):
+def charToY(char):
     chars = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L',
              'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
     for i in range(len(chars)):

@@ -5,6 +5,7 @@ import os
 import platform
 
 import game
+import figlet
 import is_win
 
 if __name__ == "__main__":
@@ -18,13 +19,6 @@ if __name__ == "__main__":
         else:
             os.system('clear')
 
-print('''         **         *
-*    *              *
-*    * ***   ****   *
-*    *   *   *  *   *
-* ** *   *   *  *   *
- ****    *   *  *   *
- * **    *   *  *    
- *  *  ****  *  *   *
-
-你赢了!''')
+print('''
+{}
+你赢了!'''.format(figlet.win))
